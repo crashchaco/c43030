@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 150vh;
+}
+
+/* ESTILOS CABECERA */
+
+header {
+  background-color: rgb(30, 92, 227);
+  height: 15vh;
+  font-size: 0;
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+
+#logo {
+  background-color: burlywood;
+  width: 20%;
+  height: 100%;
+  display: inline-block;
+  font-size: 1rem;
+  vertical-align: top;
+}
+
+nav {
+  background-color: aquamarine;
+  width: 80%;
+  height: 100%;
+  display: inline-block;
+  font-size: 1rem;
+  vertical-align: center;
+}
+
+nav {
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  background-color: brown;
+  margin: 50px;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/* ESTILOS PRINCIPAL */
+
+main {
+  background-color: rgb(253, 198, 255);
+  height: 125vh;
+  font-size: 0;
+  z-index: 10;
+}
+
+#sectionUno {
+  background-color: rgb(108, 157, 244);
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+  font-size: 1rem;
+  vertical-align: top;
+  position: relative;
+}
+
+#sectionDos {
+  background-color: rgb(208, 213, 111);
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+  font-size: 1rem;
+}
+
+#cajaTres {
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  right: 0;
+  top: 400px;
+}
+
+#cajaTres img {
+  width: 100px;
+  height: 100px;
+}
+
+/* ESTILOS FOOTER */
+
+footer {
+  background-color: rgb(14, 17, 22);
+  height: 10vh;
+}
